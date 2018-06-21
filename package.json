@@ -1,0 +1,28 @@
+{
+  "name": "hzyh",
+  "version": "1.0.0",
+  "description": "杭州摇号信息",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinconan/hzyh.git"
+  },
+  "keywords": [
+    "杭州摇号",
+    "摇号"
+  ],
+  "author": "xinconan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinconan/hzyh/issues"
+  },
+  "homepage": "https://github.com/xinconan/hzyh#readme",
+  "dependencies": {
+    "knex": "^0.14.6",
+    "mysql": "^2.15.0",
+    "request": "^2.87.0"
+  }
+}
