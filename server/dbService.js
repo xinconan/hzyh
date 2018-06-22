@@ -13,11 +13,12 @@ function saveLotteryInfo(lottery) {
   })
 }
 
-function saveContentInfo(content) {
-  const {id, content, createtime, jgsc_id} = content
-  return mysql('info').insert({
+function saveContentInfo(contentInfo) {
+  const {id, content, createtime, title, jgsc_id} = contentInfo
+  return mysql('content').insert({
     id,
     content,
+    title,
     jgsc_id,
     create_time: createtime
   }).then(()=> ({
