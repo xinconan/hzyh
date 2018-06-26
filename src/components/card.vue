@@ -1,13 +1,13 @@
 <template>
   <div class="card-wrapper">
-    <p class="title">title</p>
-    <p class="time">2018-06-22 10:22:22</p>
+    <p class="title">{{card.title}}</p>
+    <p class="time">{{card.createtime}}</p>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['text']
+  props: ['card']
 }
 </script>
 
